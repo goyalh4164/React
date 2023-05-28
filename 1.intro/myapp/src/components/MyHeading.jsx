@@ -11,4 +11,20 @@ const MyHeading = () => {
   )
 }
 
+const MyHeading1 = () => {
+  return (
+    <div>
+      <h4>This is heading 1 contained in export</h4>
+    </div>
+  )
+}
+const MyHeading2 = () => {
+  return (
+    <div>
+      <h4>This is heading 2 contained in export</h4>
+    </div>
+  )
+}
+
 export default MyHeading
+export {MyHeading1 , MyHeading2}; 

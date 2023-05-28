@@ -1,4 +1,5 @@
 import MyHeading from "./components/MyHeading";
+import { MyHeading1 as CustomHeading, MyHeading2 } from "./components/MyHeading";
 
 function App(){
     return(
@@ -7,6 +8,8 @@ function App(){
             <MyHeading/>
             <h1>Hello</h1>
             <p>this is a paragraph</p>
+            <CustomHeading/>
+            <MyHeading2/>
         </div>
         <div>
             This is a second div
