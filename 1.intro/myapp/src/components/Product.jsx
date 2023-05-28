@@ -1,10 +1,10 @@
 import React from 'react'
 import { useParams } from 'react-router-dom' 
-const Product = () => {
-    const params = useParams()
+const Product = (props) => {
+    const {value} =props;
   return (
     <div>
-      <h1>#productID is {params.id}</h1>
+      <h1>product value is {value}</h1>
     </div>
   )
 }

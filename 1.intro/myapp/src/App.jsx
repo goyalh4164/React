@@ -14,8 +14,6 @@ const App = () => {
       <Route path="/" element={<Home/>} />
       <Route path="/about" element={<About/>} />
       <Route path="/contact" element={<Contact/>} />
-      {/* Dynamic Routing */}
-      <Route path="/product/:id" element={<Product/>} />
       {/* if no matchs then it will be redirected to this route Route */}
       <Route path="*" element={<div>Page Not Found 404</div>}/>
     </Routes>
