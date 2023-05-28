@@ -7,10 +7,11 @@ const Home = () => {
   return (
     <div>
       Home
-      <Product value="1"/>
-      <Product value="2"/>
-      <Product value="3"/>
-      <Product value="4"/>
+      {
+        arr.map((i)=>(
+          <Product value={i} key={i}/>
+        ))
+      }
     </div>
   )
 }
