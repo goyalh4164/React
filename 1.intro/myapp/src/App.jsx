@@ -1,5 +1,5 @@
-import MyHeading from "./components/MyHeading";
-import { MyHeading1 as CustomHeading, MyHeading2 } from "./components/MyHeading";
+import MyHeading ,{MyHeading1 as CustomHeading, MyHeading2} from "./components/MyHeading";
+
 
 function App(){
     return(
