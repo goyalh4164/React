@@ -1,10 +1,12 @@
 import React from 'react'
 
-const MyHeading = () => {
+const MyHeading = (props) => {
     // js written normally
     var subject="React"
   return (
     <>
+    <p>My name is {props.name}</p>
+    <p>My departemnt is {props.department}</p>
     <h1>Learning {subject} </h1>
     <h2>react arrow functional constant export</h2>
     </>
