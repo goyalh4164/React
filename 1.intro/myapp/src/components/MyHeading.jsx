@@ -3,12 +3,15 @@ import React from 'react'
 const MyHeading = (props) => {
     // js written normally
     var subject="React"
+    // using the props by de-structuring it
+    const {name,department,price} = props;
   return (
     <>
-    <p>My name is {props.name}</p>
-    <p>My departemnt is {props.department}</p>
+    <p>My name is {name}</p>
+    <p>My departemnt is {department}</p>
     <h1>Learning {subject} </h1>
     <h2>react arrow functional constant export</h2>
+    <h1>price is {price}</h1>
     </>
   )
 }

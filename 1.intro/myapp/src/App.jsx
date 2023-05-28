@@ -5,7 +5,7 @@ function App(){
     return(
         <>
         <div>
-            <MyHeading name="Harsh" department="computer science"/>
+            <MyHeading name="Harsh" department="computer science" price="200"/>
             <h1>Hello</h1>
             <p>this is a paragraph</p>
             <CustomHeading/>
