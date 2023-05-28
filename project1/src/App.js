@@ -9,6 +9,7 @@ import "./styles/app.scss"
 import "./styles/header.scss"
 import "./styles/home.scss"
 import "./styles/footer.scss"
+import "./styles/contact.scss"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/" element={<Home/>}/>
+        <Route path="/contact" element={<Contact/>}/>
       </Routes>
       <Footer/>
     </Router>
