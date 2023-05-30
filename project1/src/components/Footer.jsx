@@ -1,24 +1,35 @@
 import React from "react";
+import {
+  AiFillGoogleCircle,
+  AiFillAmazonCircle,
+  AiFillYoutube,
+  AiFillInstagram,
+  AiFillGithub
+} from "react-icons/ai";
 
 const Footer = () => {
   return (
-    <footer>
-      <div>
-        <h1>TechyStar</h1>
+    <footer >
+      <div >
+        <h1>CodeSpace</h1>
         <p>@all right reserved</p>
       </div>
 
       <div>
         <h5>Follow Us</h5>
         <div>
-          <a href="https://youtube.com/6packprogrammer" target={"blank"}>
-            Youtube
+          <a href="#" target={"blank"}>
+          <AiFillGithub/>
+          GitHub
           </a>
-          <a href="https://instagram.com/meabhisingh" target={"blank"}>
+          <a href="#" target={"blank"}>
+            <AiFillInstagram/>
             Instagram
           </a>
-          <a href="https://github.com/meabhisingh" target={"blank"}>
-            Github
+          <a href="#" target={"blank"}>
+            <AiFillYoutube/>
+            Youtube
+            
           </a>
         </div>
       </div>

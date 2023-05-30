@@ -14,8 +14,8 @@ const Home = () => {
         <main>
             {/* <h1>TechReact</h1>
             <p>Frontend Framework</p> */}
-            <h1>CodeSpace</h1>
-            <p>We Make Devs</p>
+            <h1>CODESPACE</h1>
+            <p style={{"fontSize":"30px"}}><i>We Make Devs</i></p>
         </main>
     </div>
 
@@ -34,7 +34,7 @@ fundamentals, receive support from our mentors and community, and build your way
     </div>
     <div className="home3" id="about">
         <div>
-          <h1>Who we are?</h1>
+          <h1>Who we are ?</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
             officiis hic illo quos sit commodi, aut magnam odio eligendi? Totam
@@ -55,17 +55,21 @@ fundamentals, receive support from our mentors and community, and build your way
       </div>
       <div className="home4" id="brands">
         <div>
-          <h1>Brands</h1>
+          <h1>Alumni</h1>
 
           <article>
             <div
               style={{
-                animationDelay: "0.3s",
+                animationDelay: "1s",
               }}
             >
-              <AiFillGoogleCircle />
+
+              <AiFillGoogleCircle/>
               {/* <p>Google</p> */}
-              <p>Google</p>
+              <hr style={{"marginTop":"20px","width":"250px" ,"height":"2px" ,"backgroundColor":"black","opacity":"0.6"}}/>
+              <p>Nitin</p>
+              <p>"My experience at CodeSpace is great and memorable. The mentors at CodeSpace helped us enhance my academic and interpersonal skills. "</p>
+              
             </div>
 
             <div
@@ -74,7 +78,10 @@ fundamentals, receive support from our mentors and community, and build your way
               }}
             >
               <AiFillAmazonCircle />
-              <p>Amazon</p>
+              <hr style={{"marginTop":"20px","width":"250px" ,"height":"2px" ,"backgroundColor":"black","opacity":"0.6"}}/>
+
+              <p>Dhruv</p>
+              <p>"My experience at CodeSpace is great and memorable. The mentors at CodeSpace helped us enhance my academic and interpersonal skills. "</p>
             </div>
 
             <div
@@ -83,7 +90,10 @@ fundamentals, receive support from our mentors and community, and build your way
               }}
             >
               <AiFillYoutube />
-              <p>Youtube</p>
+              <hr style={{"marginTop":"20px","width":"250px" ,"height":"2px" ,"backgroundColor":"black","opacity":"0.6"}}/>
+
+              <p>Pawan</p>
+              <p>"Overall it was a great experience and lifetime memory at CodeSpace. If you want to make a career in CSE I would highly recommend you to join CodeSpace.”</p>
             </div>
 
             <div
@@ -92,7 +102,10 @@ fundamentals, receive support from our mentors and community, and build your way
               }}
             >
               <AiFillInstagram />
-              <p>Instagram</p>
+              <hr style={{"marginTop":"20px","width":"250px" ,"height":"2px" ,"backgroundColor":"black","opacity":"0.6"}}/>
+
+              <p>Isha</p>
+              <p>"all the teachers are very supportive and friendly and the placement process has been very smooth throughout. "</p>
             </div>
           </article>
         </div>

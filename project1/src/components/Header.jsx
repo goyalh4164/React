@@ -6,7 +6,8 @@ import logo from "../assets/logo.png";
 const Header = () => {
   return (
     <nav>
-        <h1><img src={logo} alt="Graphics" style={{"width":"100px"}}/></h1>
+        {/* <h1><img src={logo} alt="Graphics" style={{"width":"100px"}}/></h1> */}
+        <h1 style={{"color":"blue"}}><i>CodeSpace</i></h1>
         <main>
             <HashLink to={"/#home"}>Home</HashLink>
             <HashLink to={"/#about"}>About</HashLink>

@@ -17,11 +17,11 @@ const Services = () => {
       >
         <div>
           <img src={img1} alt="Item1" />
-          <p className="legend">Full Stack</p>
+          <p className="legend" style={{"fontSize":"81px"}}>Full Stack</p>
         </div>
         <div>
           <img src={img2} alt="Item3" />
-          <p className="legend">Peer-to-peer Support</p>
+          <p className="legend" style={{"fontSize":"81px"}}>DevOps</p>
         </div>
       </Carousel>
     </div>

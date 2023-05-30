@@ -2,9 +2,9 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div className="contact" style={{"backgroundImage":"linear-gradient(blue,rgba(255,255,255),rgba(100,200,250"}}>
       <main>
-        <h1>Contact Us</h1>
+        <h1 style={{"textAlign":"center" , "fontSize":"3rem"}}>Contact Us</h1>
 
         <form>
           <div>
