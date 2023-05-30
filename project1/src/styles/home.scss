@@ -32,7 +32,9 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    background: no-repeat center/auto url("../assets/1.png");
+    background: no-repeat center/auto url("../assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     filter: blur(1.5px);
     border-radius: 0 0 200px 200px;
   }

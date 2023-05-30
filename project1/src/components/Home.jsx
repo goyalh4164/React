@@ -12,8 +12,10 @@ const Home = () => {
     <>
     <div className='home' id='home'>
         <main>
-            <h1>TechReact</h1>
-            <p>Frontend Framework</p>
+            {/* <h1>TechReact</h1>
+            <p>Frontend Framework</p> */}
+            <h1>CodeSpace</h1>
+            <p>We Make Devs</p>
         </main>
     </div>
 
@@ -21,6 +23,9 @@ const Home = () => {
         <img src={vg} alt="Graphics" />
         <div>
           <p>
+          At CodeSpace, you learn and grow exactly how you would on a real job. You will start from the
+fundamentals, receive support from our mentors and community, and build your way to the top
+- through professional work-like Full-stack and Backend web development projects.
             We are your one and only solution to the tech problems you face
             every day. We are leading tech company whose aim is to increase the
             problem solving ability in children.
@@ -59,6 +64,7 @@ const Home = () => {
               }}
             >
               <AiFillGoogleCircle />
+              {/* <p>Google</p> */}
               <p>Google</p>
             </div>
 
